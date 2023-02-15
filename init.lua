@@ -5,3 +5,12 @@ local autocmd = vim.api.nvim_create_autocmd
 --   pattern = "*",
 --   command = "tabdo wincmd =",
 -- })
+vim.cmd([[
+	set notimeout
+	set number relativenumber
+]])
+
+vim.opt.shiftwidth = 4
+vim.opt.tabstop = 4
+vim.opt.softtabstop = 4
+vim.opt.expandtab = false
